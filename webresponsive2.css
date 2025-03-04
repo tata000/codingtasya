@@ -1,0 +1,50 @@
+/*tampilan desktop*/
+.namaweb{
+  font-family: "Playwrite AU SA", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.menu{
+    width: 100%;
+    height: 100px;
+    background-color: skyblue;
+}
+.bungkus{
+    width: 100%;
+    background-color: grey;
+    display: flex;
+}
+.hitam{
+    width: 40%;
+    height: 400px;
+    background-color:coral;
+}
+.orange{
+    width: 60%;
+    height: 600px;
+    background-color: orange;
+}
+
+
+/*tampilan mobile*/
+@media only screen and (max-width: 600px){
+    .bungkus{
+        display: block;
+    }
+    .hitam{
+        width: 100%;
+    }
+    .orange{
+        width: 100%;
+    }
+    .namaweb{
+        text-align: center;
+    }
+    
+    
+    
+    
+    
+}

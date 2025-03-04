@@ -1,0 +1,12 @@
+#menu-web{
+    width: 100%;
+    height: 100px;
+    background-color:palevioletred;
+}
+#menu-a{
+    color:white;
+}
+#menu-a:hover #daftar-web{
+    
+}
+
